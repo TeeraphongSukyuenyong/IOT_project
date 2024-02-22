@@ -1,0 +1,97 @@
+body {
+    font-family: 'Srisakdi', sans-serif;
+    background: rgb(255, 230, 86);
+    background: rgb(255, 230, 86);
+    background: linear-gradient(90deg, rgba(255, 230, 86, 1) 0%, rgba(244, 184, 16, 0.6306897759103641) 78%, rgba(0, 212, 255, 1) 100%);
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #005580;
+    /* สีพื้นหลังของ header */
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: #FFA726;
+    text-shadow: 2px 2px 4px #000;
+    border: 1px solid #FFA726;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: 'Srisakdi', cursive;
+}
+
+h2 {
+    font-size: 40px;
+    /* เพิ่มขนาดตัวอักษรของหัวข้อระดับ 2 */
+}
+
+h3 {
+    font-size: 40px;
+    /* เพิ่มขนาดตัวอักษรของหัวข้อระดับ 3 */
+}
+
+h4 {
+    font-size: 40px;
+    /* เพิ่มขนาดตัวอักษรของหัวข้อระดับ 4 */
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+footer {
+    background-color: #FF9800;
+    color: #677dff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+a:hover {
+    color: green;
+}
+
+a:visited {
+    color: rgb(164, 25, 245);
+}
+
+.menu {
+    margin-bottom: 30px;
+}
+
+.menu button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: brown;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Srisakdi', cursive;
+    text-shadow: 2px 2px 4px rgb(255, 213, 135);
+}
+
+.menu button:hover {
+    background-color: #FFB300;
+}
